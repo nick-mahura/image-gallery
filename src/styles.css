@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.home {
+  text-align: center;
+  background: #00f;
+}
+
+.favourites {
+  min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #00f;
+}
+
+.favourites a {
+  padding: 8px 16px;
+  color: #ffffff;
+  background: navy;
+  border: 1px solid #999999;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.favourites a:hover {
+  opacity: 0.7;
+  border-radius: 8px;
+}

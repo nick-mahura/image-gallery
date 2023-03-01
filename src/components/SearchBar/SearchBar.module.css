@@ -1,0 +1,39 @@
+.searchbar {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: all 2s;
+}
+
+.shrinked {
+  height: 100px;
+}
+
+.textinput,
+.submitinput {
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.submitinput {
+  margin-left: 4px;
+  background: #0000ff;
+  color: #ffffff;
+  border: 1px solid #0000ff;
+  cursor: pointer;
+}
+
+.favourites_link {
+  margin-left: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  background: #f00;
+  transition: all 0.5s;
+}
+
+.favourites_link:hover {
+  border-radius: 8px;
+  opacity: 0.7;
+}
